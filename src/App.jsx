@@ -3,7 +3,7 @@ import Loading from "./components/Loading";
 import { stateCoords } from "./data/IndianStatesAndCoords";
 import useDailyTemp from "./hooks/useDailyTemp";
 
-const API_KEY = import.meta.env.WEATHER_API;
+const API_KEY = import.meta.env.VITE_WEATHER_API;
 const API_BASE = `https://www.meteosource.com/api/v1/free/point?sections=current%2Cdaily&language=en&units=auto&key=${API_KEY}&`;
 // lat=${lat}&lon=${lng}
 
