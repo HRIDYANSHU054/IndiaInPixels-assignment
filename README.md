@@ -41,7 +41,7 @@ Inspired by Leaflet.js [Interactive Choropleth Map implementation](https://leafl
 ## How to Run the Project
 
 1. **Install dependencies**: Run `npm install` in the project directory.
-2. **Run the app**: Run `npm start` to launch the development server.
+2. **Run the app**: Run `npm run dev` to launch the development server.
 3. **Add API Key**: To fetch temperature data for the states, you need to add a weather API key. Here's how to do it:
    - Create a new file named `.env` in the root directory of your project.
    - Inside the `.env` file, create a new environment variable `VITE_WEATHER_API` and assign your API key to it, like this: `VITE_WEATHER_API=your_api_key`.
