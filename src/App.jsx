@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <h1 className="heading--main">IndiaInPixels Assignment</h1>
+      <h1 className="heading--main">IndiaInPixels</h1>
       <div className="map__container">
         {isLoading ? <Loading /> : <CountryMap initTempData={dailyTemp} />}
       </div>
